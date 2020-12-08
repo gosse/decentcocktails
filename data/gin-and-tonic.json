@@ -1,0 +1,21 @@
+{
+  "name": "Gin and Tonic",
+  "description": "A classic G&T",
+  "ingredients": [
+    {
+      "name":  "gin",
+      "quantity": "2 oz.",
+      "notes": "Tanqueray if available"
+    },
+    {
+      "name":  "tonic water",
+      "quantity": "5 oz."
+    },
+    {
+      "name":  "lime wedges",
+      "quantity": "2",
+      "notes": ""
+    }
+  ],
+  "instructions": "Fill glass with ice. Add in gin, squeeze juice of lime into glass. Add tonic, stir, garnish with remaining lime wedge."
+}

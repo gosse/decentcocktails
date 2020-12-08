@@ -1,0 +1,25 @@
+{
+  "name": "Margarita",
+  "description": "A margarita done the right way.",
+  "ingredients": [
+    {
+      "name": "salt",
+      "quantity": "1 pinch",
+      "notes": "kosher"
+    },
+    {
+      "name": "tequila",
+      "quantity": "1 1/2 oz."
+    },
+    {
+      "name": "Cointreau",
+      "quantity": "1 oz."
+    },
+    {
+      "name": "lime juice",
+      "quantity": "1/2 oz.",
+      "notes": "freshly squeezed"
+    }
+  ],
+  "instructions": "Add all ingredients to shaker with ice, shake. Strain into chilled glass, garnish with lime wedge."
+}
