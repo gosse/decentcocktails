@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}
+{{ recipe['name'] }} decentcocktails.com
+{% endblock %}
+
+{% block content %}
+<article>
+	<header>
+		<h2>{{ recipe['name'] }}</h2>
+		<h4>Ingredients</h4>
+		<ul>
+		{% for ingredient in recipe['ingredients'] %}
+		<li>{{ ingredient['quantity'] }} {{ ingredient['name'] }} {% if ingredient['notes'] %} ({{  ingredient['notes'] }}) {% endif %}</li>
+	{% endfor %}
+	</ul>
+	<h4>Instructions</h4>
+	<p>{{ recipe['instructions'] }}</p>
+	</header>
+</article>
+{% endblock %}
