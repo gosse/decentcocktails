@@ -23,15 +23,25 @@ def get_recipe(recipes, pageName):
 		return recipe
 	return None
 
+def load_recipes():
+	recipes = []
+	path = './data/'
+	for filename in [file for file in os.listdir(path) if file.endswith('.json')]:
+		with open(path + filename) as jsonFile:
+			data = json.load(jsonFile)
+			recipes.append(Recipe(data))
+	return recipes
 
 @app.route('/')
 @app.route('/index')
 def index():
+	recipes = load_recipes()
 	return render_template('index.html', recipes=recipes)
 
 @app.route('/<recipeName>')
 def recipe_page(recipeName):
 	app.logger.debug("building page for %s", recipeName)
+	recipes = load_recipes()
 	recipe = get_recipe(recipes, recipeName)
 	if recipe:
 		app.logger.debug("found a recipe for %s, building page", recipeName)
@@ -52,13 +62,6 @@ def page_not_found(e):
 	return render_template('error.html', error='500', text=e), 500
 
 if __name__ == '__main__':
-	recipes = []
-	path = './data/'
-	for filename in [file for file in os.listdir(path) if file.endswith('.json')]:
-		with open(path + filename) as jsonFile:
-			data = json.load(jsonFile)
-			recipes.append(Recipe(data))
-
-	app.run(debug=True)
+	app.run(debug=True, host='0.0.0.0')
 
 
