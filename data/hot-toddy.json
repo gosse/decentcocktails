@@ -1,25 +1,24 @@
 {
-    "name": "name",
-    "description": "A classic descriptoin",
+    "name": "Hot Toddy",
+    "description": "Great for a sore throat, cold, or cold evening.",
     "ingredients": [
       {
-        "name":  "one",
+        "name":  "Bourbon",
         "quantity": "1 oz.",
-        "notes": "optional"
       },
       {
-        "name":  "two",
+        "name":  "Honey",
+        "quantity": "1/2 oz.",
+      },
+      {
+        "name":  "Lemon Juice",
         "quantity": "1 oz.",
-        "notes": "optional"
+        "notes": "Freshly squeezed, of course."
       },
       {
-        "name":  "rum",
-        "quantity": "2 oz."
-      },
-      {
-        "name":  "name",
-        "quantity": "2 oz."
+        "name":  "Hot water",
+        "quantity": "4-8 oz."
       }
     ],
-    "instructions": "mix"
+    "instructions": "Add bourbon, honey, and lemon juice to hot water, stir until honey dissolves. Garnish with a lemon peel."
   }

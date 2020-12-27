@@ -1,25 +1,26 @@
 {
-    "name": "name",
-    "description": "A classic descriptoin",
+    "name": "Old Fashioned",
+    "description": "Don't muddle the fruit.",
     "ingredients": [
       {
-        "name":  "one",
-        "quantity": "1 oz.",
+        "name":  "Bourbon or Rye",
+        "quantity": "2 oz.",
+        "notes": "Something bottled-in-bond is great if you have it"
+      },
+      {
+        "name":  "Angostura Bitters",
+        "quantity": "2 dashes",
+      },
+      {
+        "name":  "Sugar",
+        "quantity": "1 cube",
+        "notes": "about 1/2 teaspoon"
+      },
+      {
+        "name": "Water",
+        "quantity":"1 dash",
         "notes": "optional"
-      },
-      {
-        "name":  "two",
-        "quantity": "1 oz.",
-        "notes": "optional"
-      },
-      {
-        "name":  "rum",
-        "quantity": "2 oz."
-      },
-      {
-        "name":  "name",
-        "quantity": "2 oz."
       }
     ],
-    "instructions": "mix"
+    "instructions": "Place sugar cube in glass. Add Angostura bitters and a short splash of water. Muddle sugar and liquid together. Add ice then pour in the whiskey. Garnish with an orange twist."
   }
