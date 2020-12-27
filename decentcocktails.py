@@ -1,8 +1,10 @@
 from flask import Flask, render_template, url_for
+from flask.logging import create_logger
 import os
 import json
 
 app = Flask(__name__)
+log = create_logger(app)
 
 class Recipe:
 	def __init__(self, recipe):
@@ -17,7 +19,7 @@ class Recipe:
 
 def get_recipe(recipes, pageName):
 	# next(item for item in dicts if item["name"] == "Pam")
-	app.logger.debug("searching recipes")
+	log.debug("searching recipes")
 	recipe = next(recipe for recipe in recipes if recipe["pageName"] == pageName)
 	if recipe:
 		return recipe
@@ -25,11 +27,14 @@ def get_recipe(recipes, pageName):
 
 def load_recipes():
 	recipes = []
-	path = './data/'
-	for filename in [file for file in os.listdir(path) if file.endswith('.json')]:
-		with open(path + filename) as jsonFile:
-			data = json.load(jsonFile)
-			recipes.append(Recipe(data))
+	path = "./static/data/"
+	try:
+		for filename in [file for file in os.listdir(path) if file.endswith(".json")]:
+			with open(path + filename) as jsonFile:
+				data = json.load(jsonFile)
+				recipes.append(Recipe(data))
+	except:
+		log.debug("Failedto load recipes")
 	return recipes
 
 @app.route('/')
@@ -40,11 +45,11 @@ def index():
 
 @app.route('/<recipeName>')
 def recipe_page(recipeName):
-	app.logger.debug("building page for %s", recipeName)
+	log.debug("building page for %s", recipeName)
 	recipes = load_recipes()
 	recipe = get_recipe(recipes, recipeName)
 	if recipe:
-		app.logger.debug("found a recipe for %s, building page", recipeName)
+		log.debug("found a recipe for %s, building page", recipeName)
 		return render_template('recipe.html', recipe=recipe)
 	else:
 		errorMessage = "page not found: " + recipe
@@ -53,12 +58,12 @@ def recipe_page(recipeName):
 
 @app.errorhandler(404)
 def page_not_found(e):
-	print('test', e)
+	print('404', e)
 	return render_template('error.html', error='404', text=e), 404
 
 @app.errorhandler(500)
-def page_not_found(e):
-	print('test', e)
+def error_500(e):
+	print('500', e)
 	return render_template('error.html', error='500', text=e), 500
 
 if __name__ == '__main__':
