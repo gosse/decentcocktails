@@ -8,6 +8,8 @@
 <article>
 	<header>
 		<h2>{{ recipe['name'] }}</h2>
+		<h4>Description</h4>
+		<p>{{ recipe['description'] }}</p>
 		<h4>Ingredients</h4>
 		<ul>
 		{% for ingredient in recipe['ingredients'] %}

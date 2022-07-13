@@ -1,10 +1,11 @@
 from flask import Flask, render_template, url_for
-from flask.logging import create_logger
+import logging
 import os
 import json
 
 app = Flask(__name__)
-log = create_logger(app)
+logging.basicConfig(filename = 'flask.log', level=logging.DEBUG, format = f'%(asctime)s %(levelname)s %(name)s %(threadName)s : %(message)s')
+
 
 class Recipe:
 	def __init__(self, recipe):
@@ -19,7 +20,7 @@ class Recipe:
 
 def get_recipe(recipes, pageName):
 	# next(item for item in dicts if item["name"] == "Pam")
-	log.debug("searching recipes")
+	app.logger.debug("searching recipes")
 	recipe = next(recipe for recipe in recipes if recipe["pageName"] == pageName)
 	if recipe:
 		return recipe
@@ -30,11 +31,13 @@ def load_recipes():
 	path = "./static/data/"
 	try:
 		for filename in [file for file in os.listdir(path) if file.endswith(".json")]:
+			app.logger.debug(filename)
 			with open(path + filename) as jsonFile:
+				app.logger.debug("Loading, ", jsonFile)
 				data = json.load(jsonFile)
 				recipes.append(Recipe(data))
 	except:
-		log.debug("Failedto load recipes")
+		app.logger.debug("Failed to load recipes")
 	return recipes
 
 @app.route('/')
@@ -45,11 +48,11 @@ def index():
 
 @app.route('/<recipeName>')
 def recipe_page(recipeName):
-	log.debug("building page for %s", recipeName)
+	app.logger.debug("building page for %s", recipeName)
 	recipes = load_recipes()
 	recipe = get_recipe(recipes, recipeName)
 	if recipe:
-		log.debug("found a recipe for %s, building page", recipeName)
+		app.logger.debug("found a recipe for %s, building page", recipeName)
 		return render_template('recipe.html', recipe=recipe)
 	else:
 		errorMessage = "page not found: " + recipe
