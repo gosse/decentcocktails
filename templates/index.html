@@ -9,7 +9,7 @@ decentcocktails.com
 	<header>
 		<ul>
 			{% for recipe in recipes %}
-			<li><a href="{{ recipe['pageName'] }}">{{ recipe['name'] }}</a></li>
+			<li><a href="{{ recipe['path'] }}">{{ recipe['name'] }}</a></li>
 			{% endfor %}
 		</ul>
 	</header>
