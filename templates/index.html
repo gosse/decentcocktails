@@ -5,13 +5,10 @@ decentcocktails.com
 {% endblock %}
 
 {% block content %}
-<article>
-	<header>
+<h1>recipes</h1>
 		<ul>
 			{% for recipe in recipes %}
 			<li><a href="{{ recipe['path'] }}">{{ recipe['name'] }}</a></li>
 			{% endfor %}
 		</ul>
-	</header>
-</article>
 {% endblock %}

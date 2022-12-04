@@ -5,19 +5,19 @@
 {% endblock %}
 
 {% block content %}
-<article>
-	<header>
-		<h2>{{ recipe['name'] }}</h2>
-		<h4>Description</h4>
-		<p>{{ recipe['description'] }}</p>
-		<h4>Ingredients</h4>
-		<ul>
+	<h2>{{ recipe['name'] }}</h2>
+	<p>{{ recipe['notes'] }}</p>
+	<h4>Ingredients</h4>
+	<ul>
 		{% for ingredient in recipe['ingredients'] %}
-		<li>{{ ingredient['quantity'] }} {{ ingredient['name'] }} {% if ingredient['notes'] %} ({{  ingredient['notes'] }}) {% endif %}</li>
-	{% endfor %}
+		<li>{{ ingredient }}</li>
+		{% endfor %}
 	</ul>
 	<h4>Instructions</h4>
-	<p>{{ recipe['instructions'] }}</p>
-	</header>
-</article>
+	<ul>
+	{% for instruction in recipe['instructions'] %}
+	<li>{{ instruction }}</li>
+	{% endfor %}
+</ul>
+
 {% endblock %}
