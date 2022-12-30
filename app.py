@@ -32,3 +32,6 @@ def index():
 def recipes(name):
   recipe = get_recipe(name)
   return render_template('recipe.html', recipe=recipe)
+
+if __name__ == '__main__':
+   app.run()
