@@ -1,6 +1,5 @@
 {{ define "main" }}
 <h1>{{ .Page.Title }}</h1>
-<br/>
 {{ .Content }}
 
 <div class="posts-list">
@@ -8,9 +7,9 @@
     {{ if not .Params.private }}
         <div class="post">
             <p>
-                <div class="date">{{ .PublishDate.Format "Jan. 2, 2006" }}</div>    
-                <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
-                {{ .Summary }}
+                <!-- <div class="date">{{ .PublishDate.Format "Jan. 2, 2006" }}</div>     -->
+                <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
+                <!-- {{ .Summary }} -->
             </p>
         </div>
     {{ end }}
