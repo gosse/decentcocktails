@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>decentcocktails.com</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on decentcocktails.com</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Mon, 19 May 2025 09:24:54 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Testpost</title>
+      <link>http://localhost:1313/posts/testpost/</link>
+      <pubDate>Mon, 19 May 2025 09:24:54 -0400</pubDate>
+      <guid>http://localhost:1313/posts/testpost/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Margarita</title>
+      <link>http://localhost:1313/posts/margarita/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/margarita/</guid>
+      <description>&lt;p&gt;&lt;em&gt;notes: A margarita done the right way.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;ingredients&#34;&gt;Ingredients:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;(1 pinch) salt (kosher)&lt;/li&gt;&#xA;&lt;li&gt;(1 1/2 oz.) tequila&lt;/li&gt;&#xA;&lt;li&gt;(1 oz.) cointreau&lt;/li&gt;&#xA;&lt;li&gt;(1/2 oz.) lime juice, freshly squeezed&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;instructions&#34;&gt;Instructions:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Add all ingredients to shaker with ice, shake.&lt;/li&gt;&#xA;&lt;li&gt;Strain into chilled glass&lt;/li&gt;&#xA;&lt;li&gt;Garnish with lime wedge.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
   </channel>
 </rss>
