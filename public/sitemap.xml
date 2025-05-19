@@ -4,22 +4,7 @@
     
         
         <url>
-            <loc>http://localhost:1313/</loc>
-            <lastmod>2025-05-19T09:24:54-04:00</lastmod>
-        </url>
-        
-    
-        
-        <url>
-            <loc>http://localhost:1313/posts/</loc>
-            <lastmod>2025-05-19T09:24:54-04:00</lastmod>
-        </url>
-        
-    
-        
-        <url>
-            <loc>http://localhost:1313/posts/testpost/</loc>
-            <lastmod>2025-05-19T09:24:54-04:00</lastmod>
+            <loc>http://localhost:1313/posts/canchanchara/</loc>
         </url>
         
     
@@ -31,7 +16,73 @@
     
         
         <url>
+            <loc>http://localhost:1313/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://localhost:1313/posts/gin-and-tonic/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://localhost:1313/posts/hot-toddy/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://localhost:1313/posts/junglebird/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://localhost:1313/posts/mai-tai/</loc>
+        </url>
+        
+    
+        
+        <url>
             <loc>http://localhost:1313/posts/margarita/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://localhost:1313/posts/nw-old-fashioned/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://localhost:1313/posts/old-fashioned/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://localhost:1313/posts/painkiller/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://localhost:1313/posts/paper-plane/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://localhost:1313/posts/pina-colada/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://localhost:1313/posts/</loc>
         </url>
         
     

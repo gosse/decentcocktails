@@ -1,13 +1,12 @@
 {{ define "main" }}
 
-<h1>About</h1>
+<h1>Cocktails</h1>
 
 <p>
 Here are some cocktails that are decent. 
 </p>
-<br/>
 
-<h1>Latest recipes</h1>
+<!-- <h1>Recipes</h1> -->
 
 <div class="posts-list">
 {{ with .Site.GetPage "/posts" }}
@@ -22,7 +21,7 @@ Here are some cocktails that are decent.
     {{ end }}
 {{ end }}
 </div>
-
+<!-- 
 <h1>Latest photos</h1>
 
 <div class="image-grid">
@@ -37,6 +36,6 @@ Here are some cocktails that are decent.
         </a>
     {{ end }}
 {{ end }}
-</div>
+</div> -->
 
 {{ end }}

@@ -6,21 +6,83 @@
     <description>Recent content on decentcocktails.com</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 May 2025 09:24:54 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Testpost</title>
-      <link>http://localhost:1313/posts/testpost/</link>
-      <pubDate>Mon, 19 May 2025 09:24:54 -0400</pubDate>
-      <guid>http://localhost:1313/posts/testpost/</guid>
-      <description></description>
+      <title>Canchánchara</title>
+      <link>http://localhost:1313/posts/canchanchara/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/canchanchara/</guid>
+      <description>&lt;p&gt;&lt;em&gt;notes: A classic Cuban cocktail&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;(1 oz.) honey&lt;/li&gt;&#xA;&lt;li&gt;(1 oz.) lime juice, freshly squeezed&lt;/li&gt;&#xA;&lt;li&gt;(2 oz.) rum&lt;/li&gt;&#xA;&lt;li&gt;(2 oz.) club soda&lt;/li&gt;&#xA;&lt;li&gt;lime wedge&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;instructions&#34;&gt;Instructions&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Shake honey, lime juice, rum with ice.&lt;/li&gt;&#xA;&lt;li&gt;Strain into clay mug with fresh ice, top with club soda.&lt;/li&gt;&#xA;&lt;li&gt;Garnish with a lime wedge.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Gin and Tonic</title>
+      <link>http://localhost:1313/posts/gin-and-tonic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/gin-and-tonic/</guid>
+      <description>&lt;p&gt;&lt;em&gt;notes: A classic G&amp;amp;T&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;(2 oz.) gin (Jack Pine, Tanqueray, or whatever you have)&lt;/li&gt;&#xA;&lt;li&gt;(3-6 oz.) tonic water (depending on how strong you want it)&lt;/li&gt;&#xA;&lt;li&gt;lime wedges,&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;instructions&#34;&gt;Instructions&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fill glass with ice.&lt;/li&gt;&#xA;&lt;li&gt;Add in gin, squeeze juice of lime into glass.&lt;/li&gt;&#xA;&lt;li&gt;Add tonic, stir&lt;/li&gt;&#xA;&lt;li&gt;garnish with remaining lime wedge.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Hot Toddy</title>
+      <link>http://localhost:1313/posts/hot-toddy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hot-toddy/</guid>
+      <description>&lt;p&gt;&lt;em&gt;notes: Great for a sore throat, cold, or cold evening.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;(1 oz.) Bourbon&lt;/li&gt;&#xA;&lt;li&gt;(1/2 oz.) Honey&lt;/li&gt;&#xA;&lt;li&gt;(1 oz.) Lemon Juice, freshly squeezed&lt;/li&gt;&#xA;&lt;li&gt;(4-8 oz.) Hot water&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;instructions&#34;&gt;Instructions&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Add bourbon, honey, and lemon juice to hot water, stir until honey dissolves.&lt;/li&gt;&#xA;&lt;li&gt;Garnish with a lemon peel.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Jungle Bird</title>
+      <link>http://localhost:1313/posts/junglebird/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/junglebird/</guid>
+      <description>&lt;h3 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;1.5 oz rum (e.g., Smith &amp;amp; Cross)&lt;/li&gt;&#xA;&lt;li&gt;.75 oz Campari&lt;/li&gt;&#xA;&lt;li&gt;1.5 oz pineapple juice&lt;/li&gt;&#xA;&lt;li&gt;.5 oz lime juice&lt;/li&gt;&#xA;&lt;li&gt;.5 oz demerara syrup&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;instructions&#34;&gt;Instructions&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Shake all ingredients with ice&lt;/li&gt;&#xA;&lt;li&gt;Double strain into a rocks glass.&lt;/li&gt;&#xA;&lt;li&gt;Garnish with pineapple leaves and a pineapple wedge&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Mai Tai</title>
+      <link>http://localhost:1313/posts/mai-tai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/mai-tai/</guid>
+      <description>&lt;p&gt;&lt;em&gt;notes: original recipe calls for 1/4 oz orgeat and 1/4 rich demerara syrup - I like the stronger flavor of 1/2 orgeat and omit the simple syrup.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;3/4 oz lime juice&lt;/li&gt;&#xA;&lt;li&gt;1/2 oz dry curaçao&lt;/li&gt;&#xA;&lt;li&gt;1/2 oz orgeat syrup&lt;/li&gt;&#xA;&lt;li&gt;2 oz dark jamaican rum&lt;/li&gt;&#xA;&lt;li&gt;(optional) 1 oz funky rum floater (Jungle Bird is great here)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;instructions&#34;&gt;Instructions&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Shake with crushed or pebble ice&lt;/li&gt;&#xA;&lt;li&gt;Open pour into rocks glass&lt;/li&gt;&#xA;&lt;li&gt;Garnish with half spent lime and mint sprig&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Margarita</title>
       <link>http://localhost:1313/posts/margarita/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/margarita/</guid>
-      <description>&lt;p&gt;&lt;em&gt;notes: A margarita done the right way.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;ingredients&#34;&gt;Ingredients:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;(1 pinch) salt (kosher)&lt;/li&gt;&#xA;&lt;li&gt;(1 1/2 oz.) tequila&lt;/li&gt;&#xA;&lt;li&gt;(1 oz.) cointreau&lt;/li&gt;&#xA;&lt;li&gt;(1/2 oz.) lime juice, freshly squeezed&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;instructions&#34;&gt;Instructions:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Add all ingredients to shaker with ice, shake.&lt;/li&gt;&#xA;&lt;li&gt;Strain into chilled glass&lt;/li&gt;&#xA;&lt;li&gt;Garnish with lime wedge.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;&lt;em&gt;notes: A margarita done the right way.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;(1 pinch) salt (kosher)&lt;/li&gt;&#xA;&lt;li&gt;(1 1/2 oz.) tequila&lt;/li&gt;&#xA;&lt;li&gt;(1 oz.) cointreau&lt;/li&gt;&#xA;&lt;li&gt;(1/2 oz.) lime juice, freshly squeezed&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;instructions&#34;&gt;Instructions&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Add all ingredients to shaker with ice, shake.&lt;/li&gt;&#xA;&lt;li&gt;Strain into chilled glass&lt;/li&gt;&#xA;&lt;li&gt;Garnish with lime wedge.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>NW Old Fashioned</title>
+      <link>http://localhost:1313/posts/nw-old-fashioned/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/nw-old-fashioned/</guid>
+      <description>&lt;h3 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;1/2 oz Wheat Whiskey&lt;/li&gt;&#xA;&lt;li&gt;1/2 oz Rye Whiskey&lt;/li&gt;&#xA;&lt;li&gt;1/2 oz Jamaican Rum&lt;/li&gt;&#xA;&lt;li&gt;1/2 oz Cognac&lt;/li&gt;&#xA;&lt;li&gt;1/2 oz Maraschino Liqueur&lt;/li&gt;&#xA;&lt;li&gt;1 dash Bitters   &lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;instructions&#34;&gt;Instructions&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Add ice to rocks glass&lt;/li&gt;&#xA;&lt;li&gt;Stir ingredients&lt;/li&gt;&#xA;&lt;li&gt;Garnish with a nice maraschino cherry&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Old Fashioned</title>
+      <link>http://localhost:1313/posts/old-fashioned/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/old-fashioned/</guid>
+      <description>&lt;p&gt;&lt;em&gt;notes: Don&amp;rsquo;t muddle the fruit.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;(2 oz.) Bourbon or Rye (Something bottled-in-bond is great if you have it)&lt;/li&gt;&#xA;&lt;li&gt;(2 dashes) Angostura Bitters&lt;/li&gt;&#xA;&lt;li&gt;(1 cube) sugar (about 1/2 teaspoon)&lt;/li&gt;&#xA;&lt;li&gt;water (optional)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;instructions&#34;&gt;Instructions&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Place sugar cube in glass&lt;/li&gt;&#xA;&lt;li&gt;Add Angostura bitters and a short splash of water&lt;/li&gt;&#xA;&lt;li&gt;Muddle sugar and liquid together&lt;/li&gt;&#xA;&lt;li&gt;Add ice then pour in the whiskey&lt;/li&gt;&#xA;&lt;li&gt;Garnish with an orange twist&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Painkiller</title>
+      <link>http://localhost:1313/posts/painkiller/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/painkiller/</guid>
+      <description>&lt;h3 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;2 oz rum&lt;/li&gt;&#xA;&lt;li&gt;4 oz pineapple juice (fresh if possible)&lt;/li&gt;&#xA;&lt;li&gt;1 oz orange juice (fresh if possible)&lt;/li&gt;&#xA;&lt;li&gt;1 oz Coconut Cream&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;instructions&#34;&gt;Instructions&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Shake with whole and crushed ice&lt;/li&gt;&#xA;&lt;li&gt;Strain into a hurricane glass filled with ice&lt;/li&gt;&#xA;&lt;li&gt;Top with grated nutmeg&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Paper Plane</title>
+      <link>http://localhost:1313/posts/paper-plane/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/paper-plane/</guid>
+      <description>&lt;p&gt;&lt;em&gt;notes: all I wanna do is&amp;hellip;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;3/4 ounce bourbon&lt;/li&gt;&#xA;&lt;li&gt;3/4 ounce Aperol&lt;/li&gt;&#xA;&lt;li&gt;3/4 ounce Amaro Nonino Quintessentia&lt;/li&gt;&#xA;&lt;li&gt;3/4 ounce lemon juice, freshly squeezed&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;instructions&#34;&gt;Instructions&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Shake with ice&lt;/li&gt;&#xA;&lt;li&gt;Strain into a (chillded) coupe glass&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Piña Colada</title>
+      <link>http://localhost:1313/posts/pina-colada/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/pina-colada/</guid>
+      <description>&lt;p&gt;&lt;em&gt;notes: We&amp;rsquo;ll plan our escape.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;(1 oz.) cream of coconut&lt;/li&gt;&#xA;&lt;li&gt;(3 oz.) pineapple juice&lt;/li&gt;&#xA;&lt;li&gt;(1 oz.) heavy cream&lt;/li&gt;&#xA;&lt;li&gt;(3 oz.) rum&lt;/li&gt;&#xA;&lt;li&gt;ice&lt;/li&gt;&#xA;&lt;li&gt;pineapple wedge&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;instructions:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Blend all ingredients&lt;/li&gt;&#xA;&lt;li&gt;Serve in tall glass&lt;/li&gt;&#xA;&lt;li&gt;Garnish with pineapple wedge.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>
