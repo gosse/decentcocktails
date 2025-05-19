@@ -1,0 +1,7 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'decentcocktails.com'
+theme = "hugo-theme-console"
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
