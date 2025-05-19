@@ -8,7 +8,7 @@ draft = false
 ### Ingredients 
   - (2 oz.) gin (Jack Pine, Tanqueray, or whatever you have) 
   - (3-6 oz.) tonic water (depending on how strong you want it)
-  - lime wedges,
+  - lime wedges
   
 ### Instructions 
   - Fill glass with ice. 
